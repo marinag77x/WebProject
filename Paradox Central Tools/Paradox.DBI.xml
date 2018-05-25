@@ -1,0 +1,301 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Paradox.DBI
+</name>
+</assembly>
+<members>
+<member name="M:Paradox.DBI.DBIntranet2.Classes.cPermissions.#ctor(System.String,System.String,System.String,System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+	<summary>
+ Create a list of permission for a specified user.
+ </summary>
+	<param name="UserID">Unique identifier to represent an user.</param>
+	<param name="LocalisationID"></param>
+	<param name="RootElement"></param>
+	<param name="MenuOnly"></param>
+	<param name="SubMenuOnly"></param>
+	<param name="ActionOnly"></param>
+	<param name="NotDeletedOnly"></param>
+	<remarks></remarks>
+</member><member name="T:Paradox.DBI.DBMIS.DBI.cDBIProject">
+	<summary>
+ Database interface linked to the table "PROJECT".
+ </summary>
+	<remarks>The table is from the database named "DBMIS" on the server \\2k3sql01 and \\2k3webdev01.</remarks>
+</member><member name="T:Paradox.DBI.DBMIS.DBI.cDBIStatus">
+	<summary>
+ Database interface linked to the table "STATUS".
+ </summary>
+	<remarks>The table is from the database named "DBMIS" on the server \\2k3sql01 and \\2k3webdev01.</remarks>
+</member><member name="T:Paradox.DBI.DBMIS.DBI.cDBITaskResource">
+	<summary>
+ Database interface linked to the table "TASK_RESOURCE".
+ </summary>
+	<remarks>The table is from the database named "DBMIS" on the server \\2k3sql01 and \\2k3webdev01.</remarks>
+</member><member name="T:Paradox.DBI.DBMIS.DBI.cDBIProjectType">
+	<summary>
+ Database interface linked to the table "PROJECT_TYPE".
+ </summary>
+	<remarks>The table is from the database named "DBMIS" on the server \\2k3sql01 and \\2k3webdev01.</remarks>
+</member><member name="T:Paradox.DBI.DBMIS.DBI.cDBITaskFile">
+	<summary>
+ Database interface linked to the table "TASK_FILE".
+ </summary>
+	<remarks>The table is from the database named "DBMIS" on the server \\2k3sql01 and \\2k3webdev01.</remarks>
+</member><member name="T:Paradox.DBI.DBMIS.DBI.cDBITaskType">
+	<summary>
+ Database interface linked to the table "TASK_TYPE".
+ </summary>
+	<remarks>The table is from the database named "DBMIS" on the server \\2k3sql01 and \\2k3webdev01.</remarks>
+</member><member name="P:Paradox.DBI.My.MyWebExtension.Application">
+	<summary>
+ Returns information about the current application.
+ </summary>
+</member><member name="P:Paradox.DBI.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:Paradox.DBI.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:Paradox.DBI.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:Paradox.DBI.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:Paradox.DBI.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="P:Paradox.DBI.My.MyWebExtension.WebServices">
+	<summary>
+ Provides access to WebServices added to this project.
+ </summary>
+</member><member name="T:Paradox.DBI.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Paradox.DBI.DBMIS.DBI.cDBIResource">
+	<summary>
+ Database interface linked to the table "RESOURCE".
+ </summary>
+	<remarks>The table is from the database named "DBMIS" on the server \\2k3sql01 and \\2k3webdev01.</remarks>
+</member><member name="P:Paradox.DBI.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Paradox.DBI.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Paradox.DBI.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="P:Paradox.DBI.cDBI.Length">
+	<summary>
+ Length property of an cDBI object.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Paradox.DBI.cDBI.Name">
+	<summary>
+ Name property of an cDBI object.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Paradox.DBI.cDBI.Type">
+	<summary>
+ Type property of an cDBI object.
+ </summary>
+	<value></value>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Paradox.DBI.cDBI.#ctor(System.String,System.Data.DbType,System.Int32)">
+	<summary>
+ Creates a new cDBI object.
+ </summary>
+	<param name="FieldName"></param>
+	<param name="FieldType"></param>
+	<param name="FieldLength"></param>
+	<remarks></remarks>
+</member><member name="T:Paradox.DBI.cDBI">
+	<summary>
+ Database interface
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Paradox.DBI.DBMIS.DBI.cDBIPriority">
+	<summary>
+ Database interface linked to the table "PRIORITY".
+ </summary>
+	<remarks>The table is from the database named "DBMIS" on the server \\2k3sql01 and \\2k3webdev01.</remarks>
+</member><member name="T:Paradox.DBI.DBMIS.DBI.cDBITask">
+	<summary>
+ Database interface linked to the table "TASK" in DBMIS on \\2k3sql01 and \\2k3webdev01.
+ </summary>
+</member><member name="M:Paradox.DBI.cDBTools.DataSetIsEmpty(System.Data.DataSet@)">
+	<summary>
+ Performs multiple verifications to detect an empty or inexistant dataset.
+ </summary>
+	<param name="ds"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Paradox.DBI.cDBTools.ExecuteStoreProcedure(System.String,System.Collections.Generic.List{System.Data.SqlClient.SqlParameter}@,System.Boolean,System.Int32)">
+	<summary>
+	</summary>
+	<param name="ProcedureName"></param>
+	<param name="Parameters"></param>
+	<param name="LogError"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Paradox.DBI.cDBTools.ExecuteSQL(System.String,System.Collections.Generic.List{System.Data.SqlClient.SqlParameter}@,System.Boolean,System.Int32)">
+	<summary>
+ Executes a SQL query.
+ </summary>
+	<param name="SQLQuery"></param>
+	<param name="Paramaters"></param>
+	<param name="LogError"></param>
+	<returns></returns>
+	<remarks>Uses ConnectionString from web.config</remarks>
+</member><member name="M:Paradox.DBI.cDBTools.GetData(System.String,System.Collections.Generic.List{System.Data.SqlClient.SqlParameter}@,System.Boolean,System.Int32)">
+	<summary>
+ Returns a dataset for the specified query.
+ </summary>
+	<param name="SQLQuery">SQL Query</param>
+	<param name="Parameters">SQL Parameter's List</param>
+	<param name="LogError">Determines if errors are logged or not</param>
+	<returns></returns>
+	<remarks>Uses ConnectionString from web.config</remarks>
+</member><member name="M:Paradox.DBI.cDBTools.BoolToInt(System.Boolean)">
+	<summary>
+ Converts a Boolean into an Integer.
+ </summary>
+	<param name="Bool"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Paradox.DBI.cDBTools.IntToBool(System.Int32)">
+	<summary>
+ Converts an Integer into a Boolean.
+ </summary>
+	<param name="Int"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Paradox.DBI.cDBTools.BuildSQLParam(System.String,System.Object,System.Data.DbType,System.Boolean)">
+	<summary>
+ Wrapper for SQL parameters construction.
+ </summary>
+	<param name="Name"></param>
+	<param name="Value"></param>
+	<param name="Type"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Paradox.DBI.cDBTools.ConvertCommandParamatersToLiteralValues(System.Data.SqlClient.SqlCommand)">
+	<summary>
+ Returns the literal query string of the SqlCommand object that as SqlParamaters
+ </summary>
+	<param name="cmd"></param>
+	<returns>The query string</returns>
+	<remarks>Alain Holloway, Mardi 11 octobre 2011</remarks>
+</member><member name="M:Paradox.DBI.cDBTools.QuerySelect(System.String[])">
+	<summary>
+ Build a SQL-friendly SELECT string from an array on columns names.
+ </summary>
+	<param name="ColumnNames">The names of all the selected columns</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Paradox.DBI.cDBTools.QueryFrom(System.String)">
+	<summary>
+ Build a SQL-friendly FROM string with the name of the targeted table.
+ </summary>
+	<param name="TableName">The name of the table to select</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Paradox.DBI.cDBTools.QueryInnerJoin(System.String,System.String,System.String)">
+	<summary>
+ Build a SQL-friendly INNER JOIN string with the name of the targeted table and the join critera.
+ </summary>
+	<param name="TableName">The name of the table to join</param>
+	<param name="SourceCritera">The column name of the source table</param>
+	<param name="JoinCritera">The column name of the joined table</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Paradox.DBI.cDBTools.QueryGroupBy(System.String[])">
+	<summary>
+ Build a SQL-friendly GROUP BY string from an array on columns names.
+ </summary>
+	<param name="ColumnNames">The names of all the selected columns</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Paradox.DBI.cDBTools.QueryOrderBy(System.String,Paradox.DBI.cDBTools.eOrderByValue)">
+	<summary>
+ Build a SQL-friendly FROM string with the name of the targeted table.
+ </summary>
+	<param name="ColumnName">The name of the table to select</param>
+	<param name="OrderType"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Paradox.DBI.cDBTools.ValidateConnectionManagerName(System.String)">
+	<summary>
+ Validate connection name
+ </summary>
+	<param name="ConnectionName"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:Paradox.DBI.cDBTools.LogSQL(System.Data.SqlClient.SqlException@,System.String,System.Boolean)">
+	<summary>
+ Writes a SQLException in plain text in a file.
+ Optionnaly sends the Exception by email.
+ </summary>
+	<param name="ex">Reference to the SQLException object.</param>
+	<param name="SQLQuery">The SQL Query that causes the exception.</param>
+	<param name="SendErrorByEmail">Send a notification of the error by email.</param>
+	<remarks>Each new SQLException creates a new file in the specified folder.</remarks>
+</member><member name="M:Paradox.DBI.cDBTools.SendSQLErrorLog(System.Data.SqlClient.SqlException,System.String)">
+	<summary>
+ Send a notification of an SQL Error by email.
+ </summary>
+	<param name="ex">The SQLException object.</param>
+	<param name="SQLQuery">The SQL Query that causes the exception.</param>
+	<remarks></remarks>
+</member><member name="T:Paradox.DBI.cDBTools">
+	<summary>
+ Database interface tools and types
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Paradox.DBI.DBMIS.DBI.cDBIFile">
+	<summary>
+ Database interface linked to the table "FILE".
+ </summary>
+	<remarks>The table is from the database named "DBMIS" on the server \\2k3sql01 and \\2k3webdev01.</remarks>
+</member><member name="T:Paradox.DBI.DBMIS.DBI.cDBIGate">
+	<summary>
+ Database interface linked to the table "GATE".
+ </summary>
+	<remarks>The table is from the database named "DBMIS" on the server \\2k3sql01 and \\2k3webdev01.</remarks>
+</member><member name="T:Paradox.DBI.DBMIS.DBI.cDBITaskLog">
+	<summary>
+ Database interface linked to the table "TASK_LOG".
+ </summary>
+	<remarks>The table is from the database named "DBMIS" on the server \\2k3sql01 and \\2k3webdev01.</remarks>
+</member><member name="T:Paradox.DBI.DBMIS.DBI.cDBIProjectFile">
+	<summary>
+ Database interface linked to the table "PROJECT_FILE".
+ </summary>
+	<remarks>The table is from the database named "DBMIS" on the server \\2k3sql01 and \\2k3webdev01.</remarks>
+</member><member name="T:Paradox.DBI.DBMIS.DBI.cDBIProjectGate">
+	<summary>
+ Database interface linked to the table "PROJECT_GATE".
+ </summary>
+	<remarks>The table is from the database named "DBMIS" on the server \\2k3sql01 and \\2k3webdev01.</remarks>
+</member>
+</members>
+</doc>

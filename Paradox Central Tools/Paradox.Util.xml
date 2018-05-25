@@ -1,0 +1,115 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Paradox.Util
+</name>
+</assembly>
+<members>
+<member name="M:Paradox.Util.cControl.RenderControl(System.Web.UI.Control)">
+	<summary>
+ Receives any control and returns its HTML string representation.
+ </summary>
+	<param name="ctrl"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Paradox.Util.cGraphics">
+	<summary>
+ Declaration of cGraphics
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Paradox.Util.cReflection.InvokeProcess(System.String,System.String,System.String,System.Object[])">
+	<summary>
+ Calls a method from a dynamic-linked library and gets the returned value.
+ </summary>
+	<param name="AssemblyPath">The fullpath of the DLL</param>
+	<param name="InterfaceName">The name of the interface implemented by the DLL</param>
+	<param name="ProcessName">The name of the method</param>
+	<param name="arguments">Any parameters required by the method</param>
+	<returns>The value returned by the method</returns>
+	<remarks>The DLL must implements a known interface</remarks>
+</member><member name="T:Paradox.Util.cReflection">
+	<summary>
+ Group of methods using the System.Reflection namespace
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Paradox.Util.My.MyWebExtension.Application">
+	<summary>
+ Returns information about the current application.
+ </summary>
+</member><member name="P:Paradox.Util.My.MyWebExtension.Computer">
+	<summary>
+ Returns information about the host computer.
+ </summary>
+</member><member name="P:Paradox.Util.My.MyWebExtension.User">
+	<summary>
+ Returns information for the current Web user.
+ </summary>
+</member><member name="P:Paradox.Util.My.MyWebExtension.Request">
+	<summary>
+ Returns Request object.
+ </summary>
+</member><member name="P:Paradox.Util.My.MyWebExtension.Response">
+	<summary>
+ Returns Response object.
+ </summary>
+</member><member name="P:Paradox.Util.My.MyWebExtension.Log">
+	<summary>
+ Returns the Asp log object.
+ </summary>
+</member><member name="P:Paradox.Util.My.MyWebExtension.WebServices">
+	<summary>
+ Provides access to WebServices added to this project.
+ </summary>
+</member><member name="T:Paradox.Util.My.MyWebExtension">
+	<summary>
+ Module used to define the properties that are available in the My Namespace for Web projects.
+ </summary>
+	<remarks></remarks>
+</member><member name="M:Paradox.Util.cLog.AddException(System.Exception,System.String,System.Collections.Generic.List{System.Data.SqlClient.SqlParameter})">
+	<summary>
+ Log and .NET exception to file "/Log/ErrorLog.txt"
+ </summary>
+	<param name="ex">Exception</param>
+	<param name="StrSQL">SQL string</param>
+	<param name="lParam">SQL Parameters</param>
+	<remarks>Need "LogPath" appsetting in webconfig</remarks>
+</member><member name="M:Paradox.Util.cLog.AddString(System.String,System.String,System.Collections.Generic.List{System.Data.SqlClient.SqlParameter})">
+	<summary>
+ Logs an exception into a file.
+ </summary>
+	<remarks></remarks>
+</member><member name="T:Paradox.Util.cLog">
+	<summary>
+ Logs exception or debug message into different containers (file, DB, etc.)
+ </summary>
+	<remarks></remarks>
+</member><member name="P:Paradox.Util.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Paradox.Util.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Paradox.Util.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="M:Paradox.Util.cTools.GetMonthFromInt(System.Int32,System.Boolean,System.Int32)">
+	<summary>
+ Return the short name of a month from a dictionnary.
+ </summary>
+	<param name="intMonth"></param>
+	<param name="LCID"></param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="T:Paradox.Util.cMail">
+	<summary>
+ Email functionnality
+ </summary>
+	<remarks>Default STMP server name is "mailman.paradox.com"</remarks>
+</member>
+</members>
+</doc>
