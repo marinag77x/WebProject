@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="b7621c4a1b364146bee53f830f3b4b08" Name="Diagram1">
+        <EntityTypeShape EntityType="DBParadoxModel.C_PARA_VISITS" Width="1.5" PointX="2.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.ACCESS" Width="1.5" PointX="7.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.CAREER" Width="1.5" PointX="10.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.CAREERS_MIAMI" Width="1.5" PointX="10.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.CERTIFICATION_OTHERS" Width="1.5" PointX="10.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.CITy" Width="1.5" PointX="4.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.COMPANY" Width="1.5" PointX="5.75" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.COMPUTERSUPP" Width="1.5" PointX="12.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.COMPUTERSUPPORT" Width="1.5" PointX="16.5" PointY="28.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.COUNTRY" Width="1.5" PointX="0.75" PointY="31" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.CURRENCY" Width="1.5" PointX="12.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.DEALER" Width="1.5" PointX="5.25" PointY="23.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.DEPARTMENT" Width="1.5" PointX="9" PointY="21.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.DEPARTMENT_SECOURISTE" Width="1.5" PointX="6.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.DISGRPEMAIL" Width="1.5" PointX="12.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.DISTRIBGROUP" Width="1.5" PointX="12.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.DISTRIBGROUP_PRICE" Width="1.5" PointX="14.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.DISTRIBSHIPTO" Width="1.5" PointX="5.25" PointY="32.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.DISTRIBUTOR" Width="1.5" PointX="3" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.DISTRIBUTOR_GROUP" Width="1.5" PointX="0.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.DISTRIBUTOR_GROUP_PRICE" Width="1.5" PointX="8" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.dtproperty" Width="1.5" PointX="2.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.EMPLOYEE" Width="1.5" PointX="11.25" PointY="24.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.EMPLOYEE_ACCESS" Width="1.5" PointX="10" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.EMPLOYEE_GROUP" Width="1.5" PointX="14.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.FAQ_CATEGORY" Width="1.5" PointX="14.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.FAQ_FAQ" Width="1.5" PointX="8.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.FAQ_SUBCATEGORY" Width="1.5" PointX="14.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.FINDDISTRIBUTOR_SUBDISTRIBUTOR" Width="1.5" PointX="14.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.FIRETEAM" Width="1.5" PointX="13.5" PointY="25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.FIRMWARE_UPDATE" Width="1.5" PointX="4.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.FIRMWARE_UPDATE_FIRMWARE" Width="1.5" PointX="11.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.FIRMWARE_UPDATE_HISTORY" Width="1.5" PointX="16.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.FIRMWARE_UPDATE_IMPROVEMENT" Width="1.5" PointX="16.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.FIRMWARE_UPDATE_NEW" Width="1.5" PointX="16.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.FIRMWARE_UPDATE_NEWS" Width="1.5" PointX="16.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.FIRMWARE_UPDATE_PRODUCT" Width="1.5" PointX="16.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.FIRMWARE_UPDATE_PRODUCTGROUP" Width="1.5" PointX="16.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.FORUM_CATEGORY" Width="1.5" PointX="18.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.FORUM_MESSAGE" Width="1.5" PointX="0.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.FORUM_MESSAGE_VIEW" Width="1.5" PointX="2.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.FORUM_REPLY" Width="1.5" PointX="18.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.GRPEMAIL" Width="1.5" PointX="13.5" PointY="28.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.INFOMANAG" Width="1.5" PointX="13.5" PointY="30.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.INFOUTILITy" Width="1.5" PointX="4.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.LOG_SN" Width="1.5" PointX="18.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.LOGIN_ON_PARADOX" Width="1.5" PointX="18.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.NE_CERTIFICATE_LOG" Width="1.5" PointX="18.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.NE_REGISTRATION" Width="1.5" PointX="18.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.NE_REGISTRATION_HISTORY" Width="1.5" PointX="20.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.NE_SERIAL" Width="1.5" PointX="20.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.NE_SERIAL_FOR_PRINTER_ACCESS" Width="1.5" PointX="20.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.NE_SERIAL_FOR_PRINTER_SECURITY" Width="1.5" PointX="20.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.NE_VERSION" Width="1.5" PointX="20.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.OTHEREXT" Width="1.5" PointX="22.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.PCINVENTORY" Width="1.5" PointX="22.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.Pedometer_groups" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.pedometer_user_data" Width="1.5" PointX="22.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.pedometer_users" Width="1.5" PointX="5.25" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.Pedometer" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.PRIORITY" Width="1.5" PointX="14.25" PointY="22.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.PRODUCT" Width="1.5" PointX="22.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.PROTOCOL_PRODUCT" Width="1.5" PointX="5.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.PROTOCOL_PRODUCT_FILE" Width="1.5" PointX="8" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.PROTOCOL_REQUEST" Width="1.5" PointX="22.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.PROVSTATE" Width="1.5" PointX="20.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.PT_CENTER" Width="1.5" PointX="22.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.PT_PRODUCT" Width="1.5" PointX="24.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.PT_PRODUCT_GROUP" Width="1.5" PointX="24.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.PT_PRODUCT_LINE" Width="1.5" PointX="24.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.QC_NOTIFICATION_PRODUCTION_PRODUCT" Width="1.5" PointX="24.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.RL_LOG_ACCEPT" Width="1.5" PointX="24.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.RL_LOG_CONFIRMED" Width="1.5" PointX="24.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.RL_LOG_DECLINE" Width="1.5" PointX="26.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.RL_LOG_DELETE_NOT_CONFIRMED" Width="1.5" PointX="26.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.RL_LOG_REQUEST" Width="1.5" PointX="26.75" PointY="8.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.SERIALNUMBER_PRODUCTLIST" Width="1.5" PointX="15.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.SHIPPING_TYPE" Width="1.5" PointX="26.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.SN" Width="1.5" PointX="26.75" PointY="16.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.SN_QUEUE" Width="1.5" PointX="20.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.SOFTWARELIST" Width="1.5" PointX="26.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.STATUSBUG" Width="1.5" PointX="22.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.STATUSCPSUP" Width="1.5" PointX="14.25" PointY="19.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.SUPPLIER" Width="1.5" PointX="3" PointY="58.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.SURVEY_1" Width="1.5" PointX="24.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.SURVEY_DISTRIBUTOR" Width="1.5" PointX="26.75" PointY="25.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.SURVEY_DISTRIBUTOR_EMP" Width="1.5" PointX="28.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.SURVEY_DISTRIBUTOR_QUESTION" Width="1.5" PointX="28.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.SURVEY_DISTRIBUTOR_USER" Width="1.5" PointX="28.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.SURVEY_MAILINGLIST" Width="1.5" PointX="28.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.SURVEY_MAILINGLISTSUBJECT" Width="1.5" PointX="28.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.sysdiagram" Width="1.5" PointX="28.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.TAX" Width="1.5" PointX="28.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.TimeSheetFilterGroup" Width="1.5" PointX="28.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.TimeSheetProject" Width="1.5" PointX="13.5" PointY="34.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.TimeSheetTracking" Width="1.5" PointX="15.75" PointY="34.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.TimeSheetUserProjectLink" Width="1.5" PointX="18.75" PointY="31.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.TS_EXACT_SUBMIT" Width="1.5" PointX="28.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.TS_EXPENSES" Width="1.5" PointX="30.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.TS_MASTERPRJ" Width="1.5" PointX="11.25" PointY="19.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.TS_PARAMETER" Width="1.5" PointX="30.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.TS_PAYROLL" Width="1.5" PointX="30.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.TS_PERIOD" Width="1.5" PointX="30.75" PointY="11.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.TS_PRDLIST_PARAMETER" Width="1.5" PointX="30.75" PointY="14.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.TS_PRJ_EMP" Width="1.5" PointX="30.75" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.TS_PRODUCT" Width="1.5" PointX="30.75" PointY="20.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.TS_PRODUCTPROJECT" Width="1.5" PointX="30.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.TS_PUNCH" Width="1.5" PointX="13.5" PointY="37.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.TS_REASON" Width="1.5" PointX="30.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.TS_STATUS" Width="1.5" PointX="9" PointY="18.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.TS_SUBMIT" Width="1.5" PointX="28.75" PointY="30.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.TS_TASK" Width="1.5" PointX="30.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.TS_TASKS" Width="1.5" PointX="22.75" PointY="31.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.TS_TIMEGRP" Width="1.5" PointX="32.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.TS_TIMESHEET" Width="1.5" PointX="32.75" PointY="5.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.TS_TYPE" Width="1.5" PointX="32.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.USER_IMPERIAL" Width="1.5" PointX="32.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.USR_GROUP_DISTRIBUTOR_PRICING" Width="1.5" PointX="32.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.VIP_CONFERENCE_2003" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.VIP_CONFERENCE_2003_FRIEND" Width="1.5" PointX="3" PointY="6.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.VIP_CONFERENCE_2003_USER" Width="1.5" PointX="32.75" PointY="23.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.WBDISUSER" Width="1.5" PointX="8.25" PointY="25.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.WBTECHSUPP" Width="1.5" PointX="32.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.CERTIFICATION_CE" Width="1.5" PointX="30.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.CERTIFICATION_NAME" Width="1.5" PointX="32.75" PointY="32.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.CERTIFICATION_PRODUCT" Width="1.5" PointX="34.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.CERTIFICATION_PRODUCTLINE" Width="1.5" PointX="34.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.CRT_COMPATIBILITY" Width="1.5" PointX="34.75" PointY="6.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.CRT_CONTROL_PANEL" Width="1.5" PointX="34.75" PointY="9.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.CRT_CONTROL_PANEL_VERSION" Width="1.5" PointX="34.75" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.CRT_PRODUCT" Width="1.5" PointX="34.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.CRT_PRODUCT_GROUP" Width="1.5" PointX="17.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.CRT_PRODUCT_LINE" Width="1.5" PointX="34.75" PointY="19.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.CRT_VERSION_NOTE" Width="1.5" PointX="19.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.DELETED_NE_REGISTRATION" Width="1.5" PointX="21.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.DEPARTMENT_TIMESHEET_MINUTES" Width="1.5" PointX="0.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.EXACT_DEPARTMENT" Width="1.5" PointX="34.75" PointY="22.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.FIRMWARE_UPDATE_MULTIPLE_FIRMWARE" Width="1.5" PointX="23.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.FIRSTAIDWORKER" Width="1.5" PointX="13.5" PointY="43.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.IntranetHoliday" Width="1.5" PointX="34.75" PointY="26.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.NE_REGISTRATION_DEMO" Width="1.5" PointX="34.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.NE_REGISTRATION_UPGRADE" Width="1.5" PointX="34.75" PointY="34.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.PICTURE" Width="1.5" PointX="36.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.PICTUREGROUP" Width="1.5" PointX="0.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.PICTUREGROUPPRODUCT" Width="1.5" PointX="36.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.PICTUREPRODUCT" Width="1.5" PointX="36.75" PointY="7.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.RFSERIAL" Width="1.5" PointX="36.75" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.SN_BAD728ULT" Width="1.5" PointX="36.75" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.SN_MISSINGSERIALS_TEMP" Width="1.5" PointX="36.75" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.STATS_LIVE_PROCESS_LOG" Width="1.5" PointX="36.75" PointY="18.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.SUPPLIER_UPDATE" Width="1.5" PointX="36.75" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.TimeSheetFilterGroupHistory" Width="1.5" PointX="28.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.TS_PRD_DEP" Width="1.5" PointX="36.75" PointY="29.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.TS_PRD_EMP" Width="1.5" PointX="30.75" PointY="36.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DBParadoxModel.TS_PRDPRJ_LOG" Width="1.5" PointX="36.75" PointY="32.75" IsExpanded="true" />
+        <AssociationConnector Association="DBParadoxModel.FK_EMPLOYEE_ACCESS_ACCESS" ManuallyRouted="false" />
+        <AssociationConnector Association="DBParadoxModel.FK_DISTRIBUTOR_GROUP_PRICE_COMPANY" ManuallyRouted="false" />
+        <AssociationConnector Association="DBParadoxModel.FK_COMPUTERSUPPORT_DEPARTMENT" ManuallyRouted="false" />
+        <AssociationConnector Association="DBParadoxModel.FK_COMPUTERSUPPORT_EMPLOYEE" ManuallyRouted="false" />
+        <AssociationConnector Association="DBParadoxModel.FK_COMPUTERSUPPORT_PRIORITY" ManuallyRouted="false" />
+        <AssociationConnector Association="DBParadoxModel.FK_COMPUTERSUPPORT_STATUSCPSUP" ManuallyRouted="false" />
+        <AssociationConnector Association="DBParadoxModel.FK_EMPLOYEE_COUNTRY" ManuallyRouted="false" />
+        <AssociationConnector Association="DBParadoxModel.FK_SUPPLIER_COUNTRY" ManuallyRouted="false" />
+        <AssociationConnector Association="DBParadoxModel.FK_WBDISTRIB_COUNTRY" ManuallyRouted="false" />
+        <AssociationConnector Association="DBParadoxModel.FK_WBDISUSERS_COUNTRY" ManuallyRouted="false" />
+        <AssociationConnector Association="DBParadoxModel.FK_wbDEALER_WBDISTRIB" ManuallyRouted="false" />
+        <AssociationConnector Association="DBParadoxModel.FK_EMPLOYEE_DEPARTMENT" ManuallyRouted="false" />
+        <AssociationConnector Association="DBParadoxModel.FK_TS2MASTERPRJ_DEPARTMENT" ManuallyRouted="false" />
+        <AssociationConnector Association="DBParadoxModel.FK_WBDISSHIPTO_WBDISTRIB" ManuallyRouted="false" />
+        <AssociationConnector Association="DBParadoxModel.FK_WBDISTUSERS_WBDISTRIB" ManuallyRouted="false" />
+        <AssociationConnector Association="DBParadoxModel.FK_FIRETEAM_EMPLOYEE" ManuallyRouted="false" />
+        <AssociationConnector Association="DBParadoxModel.FK_FIRETEAM_EMPLOYEE1" ManuallyRouted="false" />
+        <AssociationConnector Association="DBParadoxModel.FK_FIRSTAIDWORKERS_EMPLOYEE" ManuallyRouted="false" />
+        <AssociationConnector Association="DBParadoxModel.FK_INFOMANAG_EMPLOYEE" ManuallyRouted="false" />
+        <AssociationConnector Association="DBParadoxModel.FK_TimeSheetProjects_EMPLOYEE" ManuallyRouted="false" />
+        <AssociationConnector Association="DBParadoxModel.FK_TimeSheetUserProjectLinks_EMPLOYEE" ManuallyRouted="false" />
+        <AssociationConnector Association="DBParadoxModel.FK_TS2PUNCH_EMPLOYEE" ManuallyRouted="false" />
+        <AssociationConnector Association="DBParadoxModel.FK_Pedometers_Pedometer_groups" ManuallyRouted="false" />
+        <AssociationConnector Association="DBParadoxModel.FK_pedometer_users_Pedometers" ManuallyRouted="false" />
+        <AssociationConnector Association="DBParadoxModel.FK_PROTOCOL_PRODUCT_FILE_PROTOCOL_PRODUCT" ManuallyRouted="false" />
+        <AssociationConnector Association="DBParadoxModel.FK_TimeSheetTracking_TimeSheetProjects" ManuallyRouted="false" />
+        <AssociationConnector Association="DBParadoxModel.FK_TimeSheetUserProjectLinks_TimeSheetProjects1" ManuallyRouted="false" />
+        <AssociationConnector Association="DBParadoxModel.FK_TS2MASTERPRJ_TS2STATUS" ManuallyRouted="false" />
+        <AssociationConnector Association="DBParadoxModel.FK_VIP_CONFERENCE_2003_FRIEND_VIP_CONFERENCE_2003" ManuallyRouted="false" />
+        <AssociationConnector Association="DBParadoxModel.EMP_DIS" ManuallyRouted="false" />
+        <AssociationConnector Association="DBParadoxModel.EMPGRPEMAIL" ManuallyRouted="false" />
+        <AssociationConnector Association="DBParadoxModel.TS_PRJ_DEP" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
