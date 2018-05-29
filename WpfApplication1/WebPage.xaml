@@ -23,7 +23,7 @@
         </Label>
 
         <Border Grid.Column="1" Grid.Row="1" Style="{StaticResource listHeaderStyle}">
-            <Label Style="{StaticResource listHeaderTextStyle}">Hello World</Label>
+            <Label Style="{StaticResource listHeaderTextStyle}">Hello World 11111</Label>
         </Border>
 
 
